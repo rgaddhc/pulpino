@@ -51,7 +51,7 @@ endif()
 
 
 message(STATUS "GCC_MARCH= ${GCC_MARCH}")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m32 -march=${GCC_MARCH} -Wa,-march=${GCC_MARCH}")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -march=${GCC_MARCH} -Wa,-march=${GCC_MARCH}")
 set(CMAKE_OBJDUMP_FLAGS -Mmarch=${GCC_MARCH} -d)
 
 if(${GCC_MARCH} MATCHES "IMFDXpulpv2")

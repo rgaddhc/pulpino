@@ -67,8 +67,8 @@ adv_dbg_if:
 riscv:
   commit: pulpinov1
 
-zero-riscy:
-  commit: pulpinov1
-
-fpu:
-  commit: pulpinov1
+#zero-riscy:
+#  commit: pulpinov1
+#
+#fpu:
+#  commit: pulpinov1

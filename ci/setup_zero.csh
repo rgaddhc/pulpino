@@ -6,7 +6,7 @@ setenv PATH /usr/scratch2/larain/jenkins/artefacts/riscvslim16_gcc/2.3.8/bin/:${
 
 set OBJDUMP=`which riscv32-unknown-elf-objdump`
 set OBJCOPY=`which riscv32-unknown-elf-objcopy`
-set TARGET_C_FLAGS="-m32 -O3"
+set TARGET_C_FLAGS=" -O3"
 set COMPILER=`which riscv32-unknown-elf-gcc`
 set GCC_MARCH="RV32IM"
 
